@@ -2,7 +2,7 @@
 # 網站筆記
 前言
 ---
-我使用了colorlib網站所提供的personal樣式 (https://colorlib.com/wp/template/personal/)，因應網站內容刪除或移動或增加了下相關code。
+我使用了colorlib網站所提供的personal樣式 (https://colorlib.com/wp/template/personal/) ，因應網站內容刪除或移動或增加了下相關code。
 
 所有統一改變之處
 ---
