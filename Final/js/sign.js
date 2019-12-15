@@ -34,9 +34,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/capricorn1.png')
+            $text = $('<div>').text('Resourceful, hard-working, master of material realm, persistent, pillar of society, seeks place in establishment, fixed on tangible results, strategizer, private (though with polished public image), a leader, authority, desires to leave enduring legacy.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -49,9 +50,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/aquarius1.png')
+            $text = $('<div>').text('Trendsetter, flaunts convention, quirky, accepting of all, detached friendliness, otherworldly glamour, humanitarian, tuned in, visionary.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -79,9 +81,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/aquarius1.png')
+            $text = $('<div>').text('Trendsetter, flaunts convention, quirky, accepting of all, detached friendliness, otherworldly glamour, humanitarian, tuned in, visionary.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -94,9 +97,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/pisces1.png')
+            $text = $('<div>').text('Enchanting, mystical, devoted, unreachable (lost child), undefined, lacking direction, slips away from anything real, artistic, ethereal, victim, overwhelmed, sublime, expressing divine in art, music or dance.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -123,9 +127,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/pisces1.png')
+            $text = $('<div>').text('Enchanting, mystical, devoted, unreachable (lost child), undefined, lacking direction, slips away from anything real, artistic, ethereal, victim, overwhelmed, sublime, expressing divine in art, music or dance.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -138,9 +143,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/aries1.png')
+            $text = $('<div>').text('Courageous, creative, spontaneous, a catalyst, forceful, an agitator, confrontational, a do-er, restless, lover of challenge, ardent, a fighter, dynamic, a leader.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -167,9 +173,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/aries1.png')
+            $text = $('<div>').text('Courageous, creative, spontaneous, a catalyst, forceful, an agitator, confrontational, a do-er, restless, lover of challenge, ardent, a fighter, dynamic, a leader.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -182,9 +189,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/taurus1.png')
+            $text = $('<div>').text('Goal-oriented, lover of possessions, sensuous, takes sweet time, patient, bull-headed (stubborn), skilled artisan, resonant voice, builder, beautifier, lover of creature comforts.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -211,9 +219,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/taurus1.png')
+            $text = $('<div>').text('Goal-oriented, lover of possessions, sensuous, takes sweet time, patient, bull-headed (stubborn), skilled artisan, resonant voice, builder, beautifier, lover of creature comforts.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -226,9 +235,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/gemini1.png')
+            $text = $('<div>').text('Curious, quick intellect, seeker of novelty, erratic, trendy, many sided, lackadaisical, scattered focus, adaptable, friendly, fun, a learner.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -255,9 +265,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/gemini1.png')
+            $text = $('<div>').text('Curious, quick intellect, seeker of novelty, erratic, trendy, many sided, lackadaisical, scattered focus, adaptable, friendly, fun, a learner.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -270,9 +281,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/cancer1.png')
+            $text = $('<div>').text('Emotional, absorbed in moods, cautious around new people, clingy, senses undercurrents, nurturing, keeper of family story, sensitive, hidden strength, pioneer of feeling.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -299,9 +311,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/cancer1.png')
+            $text = $('<div>').text('Emotional, absorbed in moods, cautious around new people, clingy, senses undercurrents, nurturing, keeper of family story, sensitive, hidden strength, pioneer of feeling.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -314,9 +327,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/leo1.png')
+            $text = $('<div>').text('Smiley, proud, dignified, expressive, big-hearted, glamorous, regal air, ambitious, passionate, demands respect, lover of adventure and risk.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -343,9 +357,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/leo1.png')
+            $text = $('<div>').text('Smiley, proud, dignified, expressive, big-hearted, glamorous, regal air, ambitious, passionate, demands respect, lover of adventure and risk.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -358,9 +373,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/virgo1.png')
+            $text = $('<div>').text('Fastidious, always seeking to purify, lover of routine, mechanical, sincere, conscientious, critical of self and others, kind, natural, skilled, precise, articulate.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -387,9 +403,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/virgo1.png')
+            $text = $('<div>').text('Fastidious, always seeking to purify, lover of routine, mechanical, sincere, conscientious, critical of self and others, kind, natural, skilled, precise, articulate.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -402,9 +419,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/libra1.png')
+            $text = $('<div>').text('Stylish, lover of beauty and art, cultural, sophisticated, intellectual, social grace, talkative, diplomatic, a natural in relationship.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -431,9 +449,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/libra1.png')
+            $text = $('<div>').text('Stylish, lover of beauty and art, cultural, sophisticated, intellectual, social grace, talkative, diplomatic, a natural in relationship.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -446,9 +465,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/scorpio1.png')
+            $text = $('<div>').text("Soulful, probing, driven, mesmerizing, secretive, profound, deep healer, drawn to what's occulted (hidden), lover of mysteries, at home in underworld, intensely bonded in relationships, no stranger to dark emotions.").addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -475,9 +495,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/scorpio1.png')
+            $text = $('<div>').text("Soulful, probing, driven, mesmerizing, secretive, profound, deep healer, drawn to what's occulted (hidden), lover of mysteries, at home in underworld, intensely bonded in relationships, no stranger to dark emotions.").addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -490,9 +511,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/sagittarius1.png')
+            $text = $('<div>').text("Cheerful, athletic, a seeker, adventurer, world traveler, philosopher (lover of wisdom), refreshingly honest, dot connector, friend to all, enlivening.").addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -519,9 +541,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/sagittarius1.png')
+            $text = $('<div>').text("Cheerful, athletic, a seeker, adventurer, world traveler, philosopher (lover of wisdom), refreshingly honest, dot connector, friend to all, enlivening.").addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
@@ -534,9 +557,10 @@ $(() => {
             $('#down').fadeOut()
 
             $photo = $('<img>').attr('src', './photo/capricorn1.png')
+            $text = $('<div>').text('Resourceful, hard-working, master of material realm, persistent, pillar of society, seeks place in establishment, fixed on tangible results, strategizer, private (though with polished public image), a leader, authority, desires to leave enduring legacy.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
-            $('#result2').append($photo)
-            $('#result2').append($backbutton)
+            $('#result2').append($text).append($photo)
+            $('#result3').append($backbutton)
 
             $('#back').click(function() {
                 window.location.reload()
