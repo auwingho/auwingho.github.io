@@ -93,16 +93,16 @@ https://www.w3schools.com/w3css/w3css_animate.asp
 $('#jan').on('click', () => {
         $('#inputGroupSelect01').attr('disabled', ''）
 ```
-<b><font color=red>`<id>`</font>為<font color=darkred>`month`</font>和<font color=darkred>`button`</font>的<font color=red>`<div>`</font>code會以fadeOut的方式在網頁消失。</b>
+<b>接著<font color=red>`<id>`</font>為<font color=darkred>`month`</font>和<font color=darkred>`button`</font>的<font color=red>`<div>`</font>code會以fadeOut的方式在網頁消失。</b>
 ```JavaScript=
         $("#month").fadeOut()
         $("#button").fadeOut()
 ```
-<b>在<font color=red>`<id>`</font>為<font color=darkred>`result`</font>的<font color=red>`<div>`</font>code會使用<font color=darkblue>`.text()`</font>新增文字，在該<font color=red>`<div>`</font>區顯示"Date of your birthday is?" 。</b>
+<b>在<font color=red>`<id>`</font>為<font color=darkred>`result`</font>的<font color=red>`<div>`</font>code使用<font color=darkblue>`.text()`</font>新增文字，在該<font color=red>`<div>`</font>區顯示"Date of your birthday is?" 。</b>
 ```JavaScript=
         $('#result').text('Date of your birthday is?').addClass('textq')
 ```
-<b>再設定兩個新的code，代號分別為<font color=darkred>`$date`</font>和<font color=darkred>`$date2`</font>，兩個都是按鈕<font color=red>`<button>`</font>，並用<font color=darkblue>`.attr(）`</font>設定按鈕的<font color=darkred>`class`</font>為Boostrap的btn btn-secondary btn-lg樣式；</b>
+<b>再設定兩個新的code，代號分別為<font color=darkred>`$date`</font>和<font color=darkred>`$date2`</font>，兩個都是按鈕<font color=red>`<button>`</font>，並用<font color=darkblue>`.attr(）`</font>設定按鈕的<font color=darkred>`class`</font>為Boostrap的<font color=darkred>`btn btn-secondary btn-lg`</font>樣式；</b>
 
 <b>再加上<font color=darkred>`$date`</font>的<font color=red>`<id>`</font>為<font color=darkred>`up`</font>，<font color=darkred>`$date2`</font>的<font color=red>`<id>`</font>為<font color=darkred>`down`</font>，為JQuery第二部分作準備。
 同時使用<font color=darkblue>`.text()`</font>為按鈕加上文字內容。</b>
@@ -111,7 +111,7 @@ $('#jan').on('click', () => {
         $date = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'up').text('1st to 20th of JAN')
         $date2 = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'down').text('21st to the end of JAN')
 ```
-<b>最後在<font color=red>`<id>`</font>為<font color=darkred>`result`</font>和<font color=darkred>`result2`</font>使用<font color=darkblue>`.append()`</font>代入<font color=darkred>`$date`</font>和<font color=darkred>`$date2`</font>的程式碼，讓上面設定的新程式碼能加入在<font color=darkred>`result`</font>和<font color=darkred>`result2`</font>的<font color=red>`<div>`</font>區域。</b>
+<b>最後在<font color=red>`<id>`</font>為<font color=darkred>`result`</font>和<font color=darkred>`result2`</font>使用<font color=darkblue>`.append()`</font>代入<font color=darkred>`$date`</font>和<font color=darkred>`$date2`</font>的程式碼，讓上面設定的新程式碼能加入在<font color=darkred>`result`</font>和<font color=darkred>`result2`</font>的<font color=red>`<div>`</font>區域並進行運作。</b>
 
 ```JavaScript=
         $('#result').append($date)
@@ -119,7 +119,7 @@ $('#jan').on('click', () => {
     });
 ```
 
->>## <font color=red><b>最後達至</font>：讓使用者選擇自己的生日月份後，出現能夠選擇自己的生日日期範圍得兩個按鈕。</b></font>
+>>## <font color=red><b>最後達至</font>：讓使用者選擇自己的生日月份後，出現能夠選擇自己的生日日期範圍得兩個按鈕。</b>
 
 *<h3>2. 設定<font color=red>`<id>`</font>為<font color=darkred>`<up>`</font>的按鈕在被點擊後的JQuery。</h3>*
 
@@ -132,19 +132,19 @@ $('#up').on('click', () => {
 ```
 <b>設定三個新的code，代號分別為<font color=darkred>`$photo`</font>、<font color=darkred>`$text`</font>和<font color=darkred>`$backbutton`</font>。
 
-<font color=darkred>`$photo`</font>為加入新的TAG<font color=darkred>`<img>`</font>，並用<font color=darkblue>`.attr(）`</font>插入對應第一部分的按鈕答案出現對應的星座圖片。
+<font color=darkred>`$photo`</font>用於加入新的TAG<font color=red>`<img>`</font>，並用<font color=darkblue>`.attr(）`</font>插入對應第一部分的按鈕答案出現對應的星座圖片。
 
-<font color=darkred>`$text`</font>為加入新的TAG<font color=darkred>`<div>`</font>，並用<font color=darkblue>`.text(）`</font>插入對應星座的文字簡介。再使用<font color=darkblue>`.addClass`</font>加入名為<font color=darkred>`textq`</font>的<font color=darkred>`class`</font>為文字加上樣式。
+<font color=darkred>`$text`</font>用於加入新的TAG<font color=red>`<div>`</font>，並用<font color=darkblue>`.text(）`</font>插入對應星座的文字簡介。再使用<font color=darkblue>`.addClass`</font>加入名為<font color=darkred>`textq`</font>的<font color=darkred>`class`</font>為文字加上樣式。
 
-<font color=darkred>`$backbutton`</font>為加入新的TAG<font color=darkred>`<button>`</font>，並用<font color=darkblue>`.attr(）`</font>加入名為<font color=darkred>`btn btn-secondary btn-lg`</font>的<font color=darkred>`class`</font>為按鈕加上樣式；再用<font color=darkblue>`.attr(）`</font>加入名為<font color=darkred>`back`</font>的<font color=darkred>`id`</font>讓按鈕加上代表的<font color=darkred>`<id>`</font>讓該按鈕能收到指令運作。</b>
+<font color=darkred>`$backbutton`</font>為加入新的TAG<font color=darkred>`<button>`</font>，並用<font color=darkblue>`.attr(）`</font>加入名為<font color=darkred>`btn btn-secondary btn-lg`</font>的<font color=darkred>`class`</font>為按鈕加上樣式；再用<font color=darkblue>`.attr(）`</font>加入名為<font color=darkred>`back`</font>的<font color=darkred>`id`</font>讓按鈕加上代表的<font color=red>`<id>`</font>讓該按鈕能收到指令運作。</b>
 ```JavaScript=
             $photo = $('<img>').attr('src', './photo/capricorn1.png')
             $text = $('<div>').text('Resourceful, hard-working, master of material realm, persistent, pillar of society, seeks place in establishment, fixed on tangible results, strategizer, private (though with polished public image), a leader, authority, desires to leave enduring legacy.').addClass('textq')
             $backbutton = $('<button>').attr('class', 'btn btn-secondary btn-lg').attr('id', 'back').text('BACK')
 ```
-<b>最後在<font color=red>`<id>`</font>為<font color=darkred>`result2`</font>使用<font color=darkblue>`.append()`</font>代入<font color=darkred>`$text`</font>和<font color=darkred>`$photo`</font>的程式碼，讓上面設定的新程式碼能加入在<font color=darkred>`result2`</font>區域。
+<b>最後在<font color=red>`<id>`</font>為<font color=darkred>`result2`</font>使用<font color=darkblue>`.append()`</font>代入<font color=darkred>`$text`</font>和<font color=darkred>`$photo`</font>的程式碼，讓上面設定的新程式碼能加入在<font color=darkred>`result2`</font>區域並進行運作。
 
-也是同樣在<font color=red>`<id>`</font>為<font color=darkred>`result3`</font>使用<font color=darkblue>`.append()`</font>代入<font color=darkred>`$backbutton`</font>的程式碼，讓上面設定的新程式碼能加入在<font color=darkred>`result3`</font>區域。
+也是同樣在<font color=red>`<id>`</font>為<font color=darkred>`result3`</font>使用<font color=darkblue>`.append()`</font>代入<font color=darkred>`$backbutton`</font>的程式碼，讓上面設定的新程式碼能加入在<font color=darkred>`result3`</font>區域並進行運作。
 
 加上為<font color=red>`<id>`</font>為<font color=darkred>`back`</font>使用<font color=darkblue>`.click(function()`</font>代入<font color=darkred>`window.location.reload()`</font>的程式碼，為BACK按鈕加入指令運作。</b>
 
@@ -157,7 +157,7 @@ $('#up').on('click', () => {
             });
         });
 ```
->>## <font color=red><b>最後達至</font>：若使用者選擇自己的生日日期範圍為按鈕一，即<font color=red>`<id>`</font>為<font color=darkred>`up`</font>的按鈕，便出現其對應的星座文字簡介及代表圖片，BACK按鈕在按下後能夠重新整理網頁，再次進行查詢。</b></font>
+>>## <font color=red><b>最後達至</font>：若使用者選擇自己的生日日期範圍為按鈕一，即<font color=red>`<id>`</font>為<font color=darkred>`up`</font>的按鈕，便出現其對應的星座文字簡介及代表圖片，BACK按鈕在按下後能夠重新整理網頁，再次進行查詢。</b>
 
 *<h3>3. 設定<font color=red>`<id>`</font>為<font color=darkred>`<down>`</font>的按鈕在被點擊後的JQuery。</h3>*
 
@@ -179,7 +179,8 @@ $('#up').on('click', () => {
                 window.location.reload()
             });
         });
-```    
+```
+>>## <font color=red><b>最後達至</font>：若使用者選擇自己的生日日期範圍為按鈕一，即<font color=red>`<id>`</font>為<font color=darkred>`down`</font>的按鈕，便出現其對應的星座文字簡介及代表圖片，BACK按鈕在按下後能夠重新整理網頁，再次進行查詢。</b>
 
 網站的特色或亮點
 ---
@@ -274,4 +275,3 @@ $('#up').on('click', () => {
 
 </html>
 ```
-
